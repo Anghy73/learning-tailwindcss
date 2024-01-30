@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="font-mono" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="tailwind.css" />
 </head>
 
-<body class="bg-slate-100 flex flex-col justify-start w-screen min-h-screen">
+<body class="bg-slate-100 flex flex-col justify-start min-w-screen min-h-screen">
   <header class="bg-cyan-50 shadow flex flex-col items-center">
     <nav class="flex justify-between items-center w-full min-h-14 px-10 max-w-6xl">
       <button class="w-6 h-6 rounded focus:ring-2 focus:ring-cyan-500 sm:hidden">
@@ -36,11 +36,11 @@
           </svg>        
         </button>
         <button class="w-6 h-6 focus:ring-2 focus:ring-cyan-300 rounded-full focus:ring-offset-1 overflow-hidden">
-          <img src="https://ui-avatars.com/api/?name=Andy+R" alt="Andy R">
+          <img src="https://ui-avatars.com/api/?name=A+R" alt="Andy R">
         </button>
       </div>
     </nav>
-    <nav class="sm:hidden w-full px-3">
+    <nav class="hidden sm:hidden w-full px-1">
       <ul class="flex flex-col justify-start items-start px-10 py-2 border-t-2 space-y-1">
         <li class="w-full"><a class="text-white font-bold rounded py-1 px-3 block bg-sky-500 transition-colors" href="#">About Me</a></li>
         <li class="w-full"><a class="text-black hover:text-white hover:bg-sky-500 font-bold rounded py-1 px-3 block w-full transition-colors" href="#">Projects</a></li>
@@ -49,8 +49,80 @@
       </ul>
     </nav>
   </header>
-  <h1 class="text-cyan-500 font-bold text-5xl [text-shadow:_0_0_5px_#00beef] mt-36 text-center">Tailwind CSS project manual initiation</h1>
-  <button class="text-black w-full py-2 max-w-52 mx-auto mt-20 rounded-lg bg-slate-100 border hover:bg-transparent hover:border hover:border-cyan-400 hover:text-cyan-500 transition-colors focus:ring-2 focus:ring-sky-500">New Level</button>
+  <main class="font-sans my-5 px-3">
+    <div class="grid md:grid-cols-2 gap-4 max-w-6xl mx-auto lg:grid-cols-3">
+      <article class="bg-white rounded overflow-hidden pb-3">
+        <figure class="h-44">
+          <img class="w-full h-full object-cover object-center" src="code.jpg" alt="imagen que con tienen ejemplo de código">
+        </figure>
+        <div class="px-5 py-2">
+          <span class="bg-blue-500 text-white py-1 px-3 rounded-3xl text-sm font-semibold mb-2 inline-block">Tecnologia</span>
+          <h1 class="font-bold text-xl leading-tight pb-3">Desarrollo de una API con Tecnologia siguiendo la especificación JSON:API</h1>
+          <p class="text-slate-600 text-pretty">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellendus ipsam facere commodi, veritatis non fugit tenetur eveniet omnis dolor veniam? Exercitationem nesciunt dignissimos dolore sed? Aliquam corrupti assumenda modi?</p>
+        </div>
+        <footer class="flex px-5 items-center mt-5">
+          <img class="rounded-full w-9 h-9" src="https://ui-avatars.com/api/?name=A+R" alt="">
+          <div class="flex flex-col ml-2">
+            <span class="font-semibold text-sm">Jorge García</span>
+            <span class="text-slate-400 text-sm">Jun 29, 2024</span>
+          </div>
+        </footer>
+      </article>
+      <article class="bg-white rounded overflow-hidden pb-3">
+        <figure class="h-44">
+          <img class="w-full h-full object-cover object-center" src="code.jpg" alt="imagen que con tienen ejemplo de código">
+        </figure>
+        <div class="px-5 py-2">
+          <span class="bg-blue-500 text-white py-1 px-3 rounded-3xl text-sm font-semibold mb-2 inline-block">Tecnologia</span>
+          <h1 class="font-bold text-xl leading-tight pb-3">Desarrollo de una API con Tecnologia siguiendo la especificación JSON:API</h1>
+          <p class="text-slate-600 text-pretty">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellendus ipsam facere commodi, veritatis non fugit tenetur eveniet omnis dolor veniam? Exercitationem nesciunt dignissimos dolore sed? Aliquam corrupti assumenda modi?</p>
+        </div>
+        <footer class="flex px-5 items-center mt-5">
+          <img class="rounded-full w-9 h-9" src="https://ui-avatars.com/api/?name=A+R" alt="">
+          <div class="flex flex-col ml-2">
+            <span class="font-semibold text-sm">Jorge García</span>
+            <span class="text-slate-400 text-sm">Jun 29, 2024</span>
+          </div>
+        </footer>
+      </article>
+      <article class="bg-white rounded overflow-hidden pb-3">
+        <figure class="h-44">
+          <img class="w-full h-full object-cover object-center" src="code.jpg" alt="imagen que con tienen ejemplo de código">
+        </figure>
+        <div class="px-5 py-2">
+          <span class="bg-blue-500 text-white py-1 px-3 rounded-3xl text-sm font-semibold mb-2 inline-block">Tecnologia</span>
+          <h1 class="font-bold text-xl leading-tight pb-3">Desarrollo de una API con Tecnologia siguiendo la especificación JSON:API</h1>
+          <p class="text-slate-600 text-pretty">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellendus ipsam facere commodi, veritatis non fugit tenetur eveniet omnis dolor veniam? Exercitationem nesciunt dignissimos dolore sed? Aliquam corrupti assumenda modi?</p>
+        </div>
+        <footer class="flex px-5 items-center mt-5">
+          <img class="rounded-full w-9 h-9" src="https://ui-avatars.com/api/?name=A+R" alt="">
+          <div class="flex flex-col ml-2">
+            <span class="font-semibold text-sm">Jorge García</span>
+            <span class="text-slate-400 text-sm">Jun 29, 2024</span>
+          </div>
+        </footer>
+      </article>
+      <article class="bg-white rounded overflow-hidden pb-3">
+        <figure class="h-44">
+          <img class="w-full h-full object-cover object-center" src="code.jpg" alt="imagen que con tienen ejemplo de código">
+        </figure>
+        <div class="px-5 py-2">
+          <span class="bg-blue-500 text-white py-1 px-3 rounded-3xl text-sm font-semibold mb-2 inline-block">Tecnologia</span>
+          <h1 class="font-bold text-xl leading-tight pb-3">Desarrollo de una API con Tecnologia siguiendo la especificación JSON:API</h1>
+          <p class="text-slate-600 text-pretty">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellendus ipsam facere commodi, veritatis non fugit tenetur eveniet omnis dolor veniam? Exercitationem nesciunt dignissimos dolore sed? Aliquam corrupti assumenda modi?</p>
+        </div>
+        <footer class="flex px-5 items-center mt-5">
+          <img class="rounded-full w-9 h-9" src="https://ui-avatars.com/api/?name=A+R" alt="">
+          <div class="flex flex-col ml-2">
+            <span class="font-semibold text-sm">Jorge García</span>
+            <span class="text-slate-400 text-sm">Jun 29, 2024</span>
+          </div>
+        </footer>
+      </article>
+    </div>
+    <!-- <h1 class="text-cyan-500 font-bold text-5xl [text-shadow:_0_0_5px_#00beef] mt-36 text-center">Tailwind CSS project manual initiation</h1>
+    <button class="text-black w-full py-2 max-w-52 mx-auto mt-20 rounded-lg bg-slate-100 border hover:bg-transparent hover:border hover:border-cyan-400 hover:text-cyan-500 transition-colors focus:ring-2 focus:ring-sky-500">New Level</button> -->
+  </main>
 </body>
 
 </html> 
